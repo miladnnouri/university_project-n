@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه 10</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" >صفحه اصلی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">درباره ما</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-dark">ارتباط با ما</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h2 class="text-center border rounded p-3">پنل آموزشی اساتید</h2>
+                        
+            <div class="info_table">
+                <p class="d-inline float-right">نام استاد</p>
+                <br/>
+                <br/>
+                <div class="form-container">
+                    <label for="university" class="name">انتخاب دانشگاه:</label>
+                    <select name="university" id="university" class="form-control">
+                        <option value="0">دانشگاه خود را انتخاب کنید ...</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="yearOfEdu" class="name">انتخاب نیمسال تحصیلی:</label>
+                    <select name="yearOfEdu" id="yearOfEdu" class="form-control">
+                        <option value="0">نیمسال تحصیلی خود را انتخاب کنید ...</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="courses" class="name">لیست دروس:</label>
+                    <select name="courses" id="courses" class="form-control">
+                        <option value="0">درس خود را انتخاب کنید ...</option>
+                    </select>
+                </div>
+                <div class="form-row mb-5">
+                    <a href="#" class="col-md-4 btn btn-success form-group">افزودن درس</a>
+                    <a href="#" class="col-md-4 btn btn-danger form-group">حذف درس</a>
+                    <a href="28.html" class="col-md-4 btn btn-warning form-group">افزودن دانشگاه منتخب</a>
+                </div>
+            
+                
+                
+
+                <div class="row text-center">
+                    <div class="col-12">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>ردیف</th>
+                                    <th>کد درس</th>
+                                    <th>نام درس</th>
+                                    <th>نام دانشگاه</th>
+                                    <th>واحد دانشگاهی</th>
+                                    <th>روز و ساعت کلاس</th>
+                                    <th>فعال برای همه</th>
+                                    <th>لیست دانشجویان</th>
+                                    <th>بارگذاری فیلم جلسات</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>3520</td>
+                                    <td>الکترونیک 1</td>
+                                    <td>ازاد اسلامی</td>
+                                    <td>اسلامشهر</td>
+                                    <td>شنبه : 8/00-10/00</td>
+                                    <td><input type="checkbox" checked /></td>
+                                    <td><a href="11.html" class="btn btn-warning">ویرایش</a></td>
+                                    <td><a href="12.html" class="btn btn-primary">ورود</a></td>
+                                </tr>
+                                    
+                                
+                            </tbody>
+                        </table>
+                        <a href="8.html" class="btn btn-danger float-left p-3 mt-5 ">بازگشت</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            تمامی حقوق متعلق به دانشگاه آزاد اسلامی واحد اسلامشهر می باشد.
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
+
+</body>
+</html>

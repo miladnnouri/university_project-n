@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه 16</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" >صفحه اصلی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">درباره ما</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-dark">ارتباط با ما</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h2 class="text-center border rounded p-3">لیست سفارشات مشتریان</h2>
+            <div class="info_table">
+                <p class="name">نام استاد</p>
+            </div>
+                        
+            <div class="info_table">
+                <div class="form-container">
+                    <label for="university" class="name">انتخاب دانشگاه:</label>
+                    <select name="university" id="university" class="form-control">
+                        <option value="0">دانشگاه را انتخاب کنید...</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="yearOfEdu" class="name">انتخاب نیمسال تحصیلی:</label>
+                    <select name="yearOfEdu" id="yearOfEdu" class="form-control">
+                        <option value="0">نیمسال تحصیلی را انتخاب کنید...</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="unit" class="name">انتخاب واحد دانشگاهی:</label>
+                    <select name="courses" id="unit" class="form-control">
+                        <option value="0">واحد دانشگاهی را انتخاب کنید...</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="group" class="name">انتخاب گروه:</label>
+                    <select name="courses" id="group" class="form-control">
+                        <option value="0">گروه را انتخاب کنید...</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="studentId" class="name">شماره دانشجویی:</label>
+                    <input type="text" id="studentId" class="form-control" placeholder="شماره دانشجویی را وارد کنید...">
+                </div>
+                <div class="form-container btn-submit-form-12">
+                    <a href="#" class="btn btn-primary m-3">جستجو</a>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div>
+                    <table class="table table-bordered table-striped ">
+                        <thead>
+                            <tr>
+                                <th>ردیف</th>
+                                <th>نام</th>
+                                <th>نام خانوادگی</th>
+                                <th>شماره دانشجویی</th>
+                                <th>نام دانشگاه</th>
+                                <th>واحد دانشگاهی</th>
+                                <th>نام درس</th>
+                                <th>کد درس</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                <th>6</th>
+                                <th>7</th>
+                                <th>8</th>
+                                <th>9</th>
+                                <th>10</th>
+                                <th>11</th>
+                                <th>12</th>
+                                <th>13</th>
+                                <th>14</th>
+                                <th>15</th>
+                                <th>16</th>
+                                <th>جمع جلسات</th>
+                                <th>مبلغ هرجلسه (ریال)</th>
+                                <th>کل سفارش (ریال)</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>مهدی</td>
+                                <td>قاسمی نراقی</td>
+                                <td>1111111111111111</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td></td>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>10000</td>
+                                <td>40000</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="26">جمع کل</td>
+                                
+                                <td>40000</td>
+                            </tr>
+                                
+                        </tbody>
+                    </table>
+                    <a href="13.html" class="btn btn15 btn-danger float-right p-3">بازگشت</a>
+                    <a href="#" class="btn btn15 btn-warning p-3">پرینت</a>
+                    
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            تمامی حقوق متعلق به دانشگاه آزاد اسلامی واحد اسلامشهر می باشد.
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
+
+</body>
+</html>

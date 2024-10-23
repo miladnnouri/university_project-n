@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>صفحه 5</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" >صفحه اصلی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark">درباره ما</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-dark">ارتباط با ما</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h2 class="text-center border rounded p-3 mb-5">صفحه ثبت نام دانشجویان</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="firstName">نام:</label>
+                        <input required type="text" class="form-control" id="firstName" placeholder="نام خود را وارد کنید...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="lastName">نام خانوادگی:</label>
+                        <input required type="text" class="form-control" id="lastName" placeholder="نام خانوادگی خود را وارد کنید...">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="firstName">شماره شناسنامه:</label>
+                        <input required type="text" class="form-control" id="firstName" placeholder="شماره شناسنامه خود را وارد کنید...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="lastName">کد ملی:</label>
+                        <input required type="text" class="form-control" id="lastName" placeholder="کد ملی 10 رقمی خود را وارد کنید...">
+                    </div>
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="phone">شماره دانشجویی:</label>
+                        <input required type="text" class="form-control" id="phone" placeholder="شماره دانشجویی خود را وارد کنید...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="gender" class="name float-right">جنسیت:</label>
+                        <select required name="gender" id="gender" class="form-control">
+                            <option value="0">جنسیت خود را انتخاب کنید</option>
+                            <option value="1">مرد</option>
+                            <option value="2">زن</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="phone">شماره همراه:</label>
+                        <input required type="text" class="form-control" id="phone" placeholder="شماره همراه خود را وارد کنید...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="float-right" for="email">ایمیل:</label>
+                        <input required type="email" class="form-control" id="email" placeholder="ایمیل خود را وارد کنید...">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label  for="university" class="name float-right">نوع موسسه یا دانشگاه:</label>
+                        <select required name="university" id="university" class="form-control">
+                            <option value="0">نوع موسسه یا دانشگاه خود را انتخاب کنید</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label  for="unit" class="name float-right">نام یا واحد دانشگاهی:</label>
+                        <select required name="unit" id="unit" class="form-control">
+                            <option value="0"> نام یا واحد دانشگاهی خود را انتخاب کنید</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label  for="groupOfStudy" class="name float-right">گروه تحصیلی:</label>
+                        <select required name="groupOfStudy" id="groupOfStudy" class="form-control">
+                            <option value="0">گروه تحصیلی خود را انتخاب کنید</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group float-right">
+                    <div class="form-check ">
+                        <label  class="form-check-label" for="gridCheck">تمامی <a href="#">ضوابط و مقررات مربوط به دانشجویان </a>را قبول دارم.</label>
+                        <input required class="form-check-input float-right" type="checkbox" id="gridCheck">
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <button type="submit" class="btn btn-primary w-100 p-3">ادامه</button>
+            </form>
+   
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            تمامی حقوق متعلق به دانشگاه آزاد اسلامی واحد اسلامشهر می باشد.
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
+
+</body>
+</html>
